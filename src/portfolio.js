@@ -12,8 +12,8 @@ const about = {
     'Adipisicing sit fugit ullam unde aliquid sequi Facilis soluta facilis perspiciatis corporis nulla aspernatur. Autem eligendi rerum delectus modi quisquam? Illo ut quasi nemo ipsa cumque perspiciatis! Maiores minima consectetur.',
   resume: 'https://example.com',
   social: {
-    linkedin: 'https://linkedin.com',
-    github: 'https://github.com',
+    linkedin: 'https://www.linkedin.com/in/kehan-li/',
+    github: 'https://github.com/kkkhanl',
   },
 }
 
@@ -73,18 +73,14 @@ const projects = [
 const skills = [
   // skills can be added or removed
   // if there are no skills, Skills section won't show up
-  'HTML',
-  'CSS',
-  'JavaScript',
-  'TypeScript',
-  'React',
-  'Redux',
-  'SASS',
-  'Material UI',
-  'Git',
-  'CI/CD',
-  'Jest',
-  'Enzyme',
+  'Python',
+  'Java',
+  'C',
+  'C++',
+  'ROS',
+  'PyTorch',
+  'TensorFlow',
+  'Stable Baselines3',
 ]
 
 const contact = {

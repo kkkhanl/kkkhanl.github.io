@@ -53,12 +53,14 @@
 }
 
 .about__text-container {
+  font-size: 1.3rem;
   display: flex;
   flex-direction: column; /* Stack children vertically */
   align-items: flex-start; /* Align text to the start of the flex container */
 }
 
 .about__name {
+  /* font-size: 2rem; */
   color: var(--clr-primary);
 }
 
@@ -78,6 +80,7 @@
 }
 
 .about .btn--outline {
+  font-size: 1rem;
   margin-right: 3em;
   margin-top: 3em; /* Space above the button if needed */
 }
