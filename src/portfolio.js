@@ -9,7 +9,7 @@ const about = {
   name: 'Kehan Li',
   // role: 'Computer Science Student',
   description:
-    'Adipisicing sit fugit ullam unde aliquid sequi Facilis soluta facilis perspiciatis corporis nulla aspernatur. Autem eligendi rerum delectus modi quisquam? Illo ut quasi nemo ipsa cumque perspiciatis! Maiores minima consectetur.',
+    'I am a fourth-year undergraduate student at UC Berkeley. My research interest lies in the areas of Reinforcement Learning, Robotics and Computer Vision. I am currently involved in reseach in the following labs at UC Berkeley: MPC lab, VIP lab, Darrell Group. Currently, I am applying to CS MS programs for Fall 2024',
   resume: 'https://example.com',
   social: {
     linkedin: 'https://www.linkedin.com/in/kehan-li/',
