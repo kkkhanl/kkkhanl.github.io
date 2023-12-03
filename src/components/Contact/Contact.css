@@ -1,3 +1,33 @@
-.contact {
+/* .contact {
   flex-direction: column;
+} */
+
+
+.section.contact.center {
+  text-align: center; /* Centers text horizontally */
+  display: flex;
+  flex-direction: column; /* Stacks children vertically */
+  justify-content: center; /* Centers children vertically */
+  align-items: center; /* Aligns children in the center horizontally */
+}
+
+/* If .section__title is not centered by the global styles, add this: */
+.section__title {
+  text-align: center;
+}
+
+.contact__details {
+  font-size: 1.25rem; /* Set the font size as needed */
+  color:  #2979ff; /* Set the text color as needed */
+  /* Additional styles if needed */
+}
+
+/* If you're using a link for the email */
+.contact__details a {
+  text-decoration: none; /* Optional: removes underline from links */
+  color: inherit; /* Inherits the color from the paragraph */
+}
+
+.contact__details a:hover {
+  text-decoration: underline; /* Optional: adds underline on hover */
 }

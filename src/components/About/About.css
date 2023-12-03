@@ -1,4 +1,4 @@
-.about {
+/* .about {
   flex-direction: column;
   margin-top: 3em;
 }
@@ -33,5 +33,68 @@
   .app .about {
     align-items: flex-start;
     margin-top: 2em;
+  }
+} */
+.about {
+  display: flex;
+  flex-direction: row; /* Align children in a row */
+  align-items: center; /* Align items vertically */
+  justify-content: center; /* Center items horizontally */
+  margin-top: 3em;
+}
+
+/* Adjustments for the image */
+.about__image {
+  width: 300px; /* Adjust as needed */
+  height: 300px; /* Keep the height the same as the width for a square */
+  object-fit: cover; /* Ensures the image covers the area without stretching */
+  border-radius: 10px; /* Rounded corners for the square image */
+  margin-right: 7em; /* Space between image and text */
+}
+
+.about__text-container {
+  display: flex;
+  flex-direction: column; /* Stack children vertically */
+  align-items: flex-start; /* Align text to the start of the flex container */
+}
+
+.about__name {
+  color: var(--clr-primary);
+}
+
+.about__role {
+  margin-top: 1em; /* Reduced space between name and role */
+}
+
+.about__desc {
+  font-size: 1.3rem;
+  max-width: 600px;
+  margin-top: 2em; /* Space between role and description */
+}
+
+.about .link--icon {
+  margin-right: 3em;
+  margin-top: 3em; /* Space above the icons if needed */
+}
+
+.about .btn--outline {
+  margin-right: 3em;
+  margin-top: 3em; /* Space above the button if needed */
+}
+
+/* Responsive adjustments */
+@media (max-width: 700px) {
+  .about {
+    flex-direction: column; /* Stack image and text vertically on small screens */
+    align-items: center; /* Center-align items */
+  }
+
+  .about__image {
+    margin-right: 0; /* Remove the margin-right on small screens */
+    margin-bottom: 1em; /* Add margin below the image */
+  }
+
+  .about__text-container {
+    align-items: center; /* Center-align text on small screens */
   }
 }
