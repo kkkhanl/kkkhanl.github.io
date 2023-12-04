@@ -15,7 +15,7 @@ const about = {
     'Darrell Group (advised by Professor Trevor Darrell)',
     'Currently, I am applying to CS MS programs for Fall 2024',
   ],
-  resume: 'https://drive.google.com/file/d/1u40xnZL0QiEQ46WA98pFLgLdQF0v6Zy-/view?usp=sharing',
+  // resume: 'https://drive.google.com/file/d/1u40xnZL0QiEQ46WA98pFLgLdQF0v6Zy-/view?usp=sharing',
   social: {
     linkedin: 'https://www.linkedin.com/in/kehan-li/',
     github: 'https://github.com/kkkhanl',
