@@ -8,10 +8,14 @@ const about = {
   // all the properties are optional - can be left empty or deleted
   name: 'Kehan Li',
   // role: 'Computer Science Student',
-  
-  description:
-    'Hi! My name is Kehan and I am a fourth-year undergraduate student at UC Berkeley. My research interest lies in the areas of Reinforcement Learning, Robotics and Computer Vision. I am currently involved in reseach in the following labs at UC Berkeley: MPC lab (advised by Professor Francesco Borrelli, PhD candidate Xu Shen), VIP lab (advised by Professor Avideh Zakhor), Darrell Group (advised by Professor Trevor Darrel, PhD candidate Xudong Wang). Currently, I am applying to CS MS programs for Fall 2024',
-  resume: 'https://example.com',
+  description: [
+    'Hi! My name is Kehan and I am a fourth-year undergraduate student at UC Berkeley. My research interest lies in the areas of Reinforcement Learning, Robotics and Computer Vision. I am currently involved in research in the following labs at UC Berkeley:',
+    'MPC lab (advised by Professor Francesco Borrelli)',
+    'VIP lab (advised by Professor Avideh Zakhor)',
+    'Darrell Group (advised by Professor Trevor Darrell)',
+    'Currently, I am applying to CS MS programs for Fall 2024',
+  ],
+  resume: 'https://drive.google.com/file/d/1u40xnZL0QiEQ46WA98pFLgLdQF0v6Zy-/view?usp=sharing',
   social: {
     linkedin: 'https://www.linkedin.com/in/kehan-li/',
     github: 'https://github.com/kkkhanl',
@@ -80,6 +84,7 @@ const skills = [
   'C',
   'C++',
   'ROS',
+  'RISC-V',
   'PyTorch',
   'TensorFlow',
   'Stable Baselines3',

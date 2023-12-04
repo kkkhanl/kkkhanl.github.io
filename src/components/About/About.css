@@ -101,3 +101,25 @@
     align-items: center; /* Center-align text on small screens */
   }
 }
+.about__labs-list {
+  list-style-type: disc; /* This adds bullet points */
+  padding-left: 20px; /* This gives space for bullet points */
+  margin: 0; /* Adjust as needed */
+  line-height: 0.3
+}
+
+.about__desc {
+  margin-bottom: 0.1em; /* Reduces the gap between lines */
+}
+.about__desc ul {
+  list-style-type: disc;
+  padding-left: 20px;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.about__desc ul li {
+  margin: 0;
+  padding: 0;
+  line-height: 1.6; /* Adjust the line-height to control vertical spacing */
+}

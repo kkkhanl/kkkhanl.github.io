@@ -80,8 +80,18 @@ const About = () => {
           </h1>
         )}
 
-        {role && <h2 className='about__role'>A {role}.</h2>}
-        <p className='about__desc'>{description && description}</p>
+{description && (
+  <div>
+    <p className='about__desc'>{description[0]}</p>
+    <ul className='about__labs-list'>
+      {description.slice(1, -1).map((lab, index) => (
+        <li key={lab} className='about__desc'>{lab}</li>
+      ))}
+    </ul>
+    <p className='about__desc'>{description[description.length - 1]}</p>
+  </div>
+)}
+
 
         <div className='about__contact center'>
           {resume && (
