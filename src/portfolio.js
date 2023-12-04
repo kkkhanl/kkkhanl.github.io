@@ -8,8 +8,9 @@ const about = {
   // all the properties are optional - can be left empty or deleted
   name: 'Kehan Li',
   // role: 'Computer Science Student',
+  
   description:
-    'I am a fourth-year undergraduate student at UC Berkeley. My research interest lies in the areas of Reinforcement Learning, Robotics and Computer Vision. I am currently involved in reseach in the following labs at UC Berkeley: MPC lab, VIP lab, Darrell Group. Currently, I am applying to CS MS programs for Fall 2024',
+    'Hi! My name is Kehan and I am a fourth-year undergraduate student at UC Berkeley. My research interest lies in the areas of Reinforcement Learning, Robotics and Computer Vision. I am currently involved in reseach in the following labs at UC Berkeley: MPC lab (advised by Professor Francesco Borrelli, PhD candidate Xu Shen), VIP lab (advised by Professor Avideh Zakhor), Darrell Group (advised by Professor Trevor Darrel, PhD candidate Xudong Wang). Currently, I am applying to CS MS programs for Fall 2024',
   resume: 'https://example.com',
   social: {
     linkedin: 'https://www.linkedin.com/in/kehan-li/',
@@ -21,52 +22,53 @@ const projects = [
   // projects can be added an removed
   // if there are no projects, Projects section won't show up
   {
-    name: 'Project 1',
+    name: 'HIPIE +',
     description:
-      'Amet asperiores et impedit aliquam consectetur? Voluptates sed a nulla ipsa officia et esse aliquam',
-    stack: ['SASS', 'TypeScript', 'React'],
-    sourceCode: 'https://github.com',
-    livePreview: 'https://github.com',
+      'Extension of the HIPIE project, building a segmentation model with language guided context and chain of thought reasoning',
+    stack: ['Research Project', 'Computer Vision', 'Large Language Models'],
+    livePreview: 'https://people.eecs.berkeley.edu/~xdwang/projects/HIPIE/',
   },
   {
-    name: 'Project 2',
+    name: 'Adaptive Navigation for Autonomous Drones',
     description:
-      'Amet asperiores et impedit aliquam consectetur? Voluptates sed a nulla ipsa officia et esse aliquam',
-    stack: ['SASS', 'TypeScript', 'React'],
-    sourceCode: 'https://github.com',
-    livePreview: 'https://github.com',
+      'Enably autonomous long-range, obstacle avoidance drone flights with Reinforcement Learning',
+    stack: ['Research Project', 'Reinforcement Learning', 'Computer Vison'],
+    livePreview: 'https://bcommons.berkeley.edu/adaptive-long-distance-navigation-autonomous-drones',
   },
   {
-    name: 'Project 3',
+    name: 'Park-Predict ++',
     description:
-      'Amet asperiores et impedit aliquam consectetur? Voluptates sed a nulla ipsa officia et esse aliquam',
-    stack: ['SASS', 'TypeScript', 'React'],
-    sourceCode: 'https://github.com',
-    livePreview: 'https://github.com',
+      'Extension of the Park Predict + Project, enhancing trajectory prediction for vehicles in a parking lot environment',
+    stack: ['Research Project', 'Transformer Models', 'Trajectory Prediction'],
+    livePreview: 'https://sites.google.com/view/xushenssite/research/parkpredict_1?authuser=0',
   },
   {
-    name: 'Project 1',
+    name: 'Euroskepticism Detection with BERT',
     description:
-      'Amet asperiores et impedit aliquam consectetur? Voluptates sed a nulla ipsa officia et esse aliquam',
-    stack: ['SASS', 'TypeScript', 'React'],
-    sourceCode: 'https://github.com',
-    livePreview: 'https://github.com',
+      'Devised a Machine Learning model that classifies the EU’s parliamentary questions as pro- or anti-Europeanism.',
+    stack: ['Research Project', 'BERT', 'Natural Language Processing'],
+    livePreview: 'https://urapprojects.berkeley.edu/detail.php?id=18971-3',
   },
   {
-    name: 'Project 2',
+    name: 'Trailer Hitch Tracking',
     description:
-      'Amet asperiores et impedit aliquam consectetur? Voluptates sed a nulla ipsa officia et esse aliquam',
-    stack: ['SASS', 'TypeScript', 'React'],
-    sourceCode: 'https://github.com',
-    livePreview: 'https://github.com',
+      'Developed a robust system to detect and track trailer tongue from LiDAR data to enhance autonomous hitching.',
+    stack: ['Internship Project', '3D Point Cloud Processing', 'Optimization'],
+    livePreview: 'https://developer.cepton.com/blog/trailer_hitch_tracking',
   },
   {
-    name: 'Project 3',
+    name: 'Reinforcement Learning Gomoku',
     description:
-      'Amet asperiores et impedit aliquam consectetur? Voluptates sed a nulla ipsa officia et esse aliquam',
-    stack: ['SASS', 'TypeScript', 'React'],
-    sourceCode: 'https://github.com',
-    livePreview: 'https://github.com',
+      'Implemented various reinforcement learning models to play the strategy board game of Gomoku with a novel tournament-style training loop.',
+    stack: ['Course Project', 'Reinforcement Learning'],
+    sourceCode: 'https://github.com/kkkhanl/Gomoku_Tournaments',
+  },
+  {
+    name: 'Wind and Fluid Simulator',
+    description:
+      'Developed a Computer Graphics model that simulated the realistic behavior of fluid under the effects of wind.',
+    stack: ['Course Project', 'Computer Graphics', 'Physics Simulation'],
+    livePreview: 'https://zenith-rhythm-571.notion.site/CS184-Final-Project-Blown-Away-by-Fluid-Dynamics-2c9121dd210c46178e4ee1b1b077508d?pvs=4',
   }
 ]
 

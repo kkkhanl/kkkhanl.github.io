@@ -76,7 +76,7 @@ const About = () => {
       <div className="about__text-container">
         {name && (
           <h1>
-            Hi, I am <span className='about__name'>{name}.</span>
+            Kehan Li
           </h1>
         )}
 
