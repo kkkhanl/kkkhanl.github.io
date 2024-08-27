@@ -9,11 +9,11 @@ const about = {
   name: 'Kehan Li',
   // role: 'Computer Science Student',
   description: [
-    'Hi! My name is Kehan and I am a fourth-year undergraduate student at UC Berkeley. My research interest lies in the areas of Reinforcement Learning, Robotics and Computer Vision. I am currently involved in research in the following labs at UC Berkeley:',
+    'Hi! My name is Kehan and I am a first-year MSCS student at Stanford University. My research interest lies in the areas of Reinforcement Learning, Robotics and Computer Vision.',
+    'Previously, I attended UC Berkeley for my undergraduate studies where I have been involved in research in the following labs:',
     '<a href="https://sites.google.com/berkeley.edu/mpc-lab" class="link" target="_blank">MPC lab</a> (advised by Professor Francesco Borrelli)',
     '<a href="https://www-video.eecs.berkeley.edu/" class="link" target="_blank">VIP lab</a> (advised by Professor Avideh Zakhor)',
     '<a href="https://darrellgroup.github.io/" class="link" target="_blank">Darrell Group</a> (advised by Professor Trevor Darrell)',
-    'Currently, I am applying to CS MS programs for Fall 2024',
   ],
   // resume: 'https://drive.google.com/file/d/1u40xnZL0QiEQ46WA98pFLgLdQF0v6Zy-/view?usp=sharing',
   social: {
