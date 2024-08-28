@@ -9,11 +9,11 @@ const about = {
   name: 'Kehan Li',
   // role: 'Computer Science Student',
   description: [
-    'Hi! My name is Kehan and I am a first-year MSCS student at Stanford University. My research interest lies in the areas of Reinforcement Learning, Robotics and Computer Vision.',
-    'Previously, I attended UC Berkeley for my undergraduate studies where I have been involved in research in the following labs:',
-    '<a href="https://sites.google.com/berkeley.edu/mpc-lab" class="link" target="_blank">MPC lab</a> (advised by Professor Francesco Borrelli)',
-    '<a href="https://www-video.eecs.berkeley.edu/" class="link" target="_blank">VIP lab</a> (advised by Professor Avideh Zakhor)',
+    'Hi! My name is Kehan and I am a first-year <a href="https://www.cs.stanford.edu/masters-program-overview" class="link" target="_blank">MSCS</a> student at Stanford University. My research interest lies in the areas of Reinforcement Learning, Robotics and Computer Vision. Previously, I obtained my B.A. in Computer Science from UC Berkeley where I have been involved in research in the following labs:',
     '<a href="https://darrellgroup.github.io/" class="link" target="_blank">Darrell Group</a> (advised by Professor Trevor Darrell)',
+    '<a href="https://www-video.eecs.berkeley.edu/" class="link" target="_blank">VIP lab</a> (advised by Professor Avideh Zakhor)',
+    '<a href="https://sites.google.com/berkeley.edu/mpc-lab" class="link" target="_blank">MPC lab</a> (advised by Professor Francesco Borrelli)',
+    'Feel free to reach out at kehanli[at]stanford[dot]edu :)'
   ],
   // resume: 'https://drive.google.com/file/d/1u40xnZL0QiEQ46WA98pFLgLdQF0v6Zy-/view?usp=sharing',
   social: {
@@ -25,10 +25,16 @@ const about = {
 const projects = [
   // projects can be added an removed
   // if there are no projects, Projects section won't show up
+
+  //   We introduce SegLLM, a multi - round interactive reasoning segmentation model that can reason about
+  // previously segmented objects and conversations, responding to multiple visual and text queries in a chat - like
+  // manner.SegLLM can understand complex user intentions and segment entities in relation to previously identified
+  // ones, e.g., instance[1], including positional, interactional, and hierarchical relationships.
+
   {
-    name: 'HIPIE +',
+    name: 'SegLLM',
     description:
-      'Extension of the HIPIE project, building a segmentation model with language guided context and chain of thought reasoning',
+      'Extension of the HIPIE project, a multi-round interactive sgmentation model that can reason about previously segmented objects and conversations',
     stack: ['Research Project', 'Computer Vision', 'Large Language Models'],
     livePreview: 'https://people.eecs.berkeley.edu/~xdwang/projects/HIPIE/',
   },

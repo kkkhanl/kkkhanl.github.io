@@ -19,24 +19,24 @@ const About = () => {
           </h1>
         )}
 
-{description && (
-  <div>
-    <p className='about__desc'>{description[0]}</p>
-    <ul className='about__labs-list'>
-      {description.slice(1, -1).map((lab) => (
-        <li key={lab} className='about__desc' dangerouslySetInnerHTML={{ __html: lab }} />
-      ))}
-    </ul>
-    <p className='about__desc'>{description[description.length - 1]}</p>
-  </div>
-)}
+        {description && (
+          <div>
+            <p className='about__desc' dangerouslySetInnerHTML={{ __html: description[0] }} />
+            <ul className='about__labs-list'>
+              {description.slice(1, -1).map((lab) => (
+                <li key={lab} className='about__desc' dangerouslySetInnerHTML={{ __html: lab }} />
+              ))}
+            </ul>
+            <p className='about__desc' dangerouslySetInnerHTML={{ __html: description[description.length - 1] }} />
+          </div>
+        )}
 
 
         <div className='about__contact center'>
           {resume && (
             <a href={resume}>
               <span type='button' className='btn btn--outline'>
-                Resume 
+                Resume
               </span>
             </a>
           )}
@@ -49,7 +49,7 @@ const About = () => {
                   aria-label='github'
                   className='link link--icon'
                 >
-                  <GitHubIcon style={{ fontSize: 50 }}/>
+                  <GitHubIcon style={{ fontSize: 50 }} />
                 </a>
               )}
 
@@ -59,7 +59,7 @@ const About = () => {
                   aria-label='linkedin'
                   className='link link--icon'
                 >
-                  <LinkedInIcon style={{ fontSize: 60 }}/>
+                  <LinkedInIcon style={{ fontSize: 60 }} />
                 </a>
               )}
             </>
