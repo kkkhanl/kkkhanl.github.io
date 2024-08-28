@@ -32,7 +32,7 @@ const projects = [
   // ones, e.g., instance[1], including positional, interactional, and hierarchical relationships.
 
   {
-    name: 'SegLLM',
+    name: 'HIPIE+',
     description:
       'Extension of the HIPIE project, a multi-round interactive sgmentation model that can reason about previously segmented objects and conversations',
     stack: ['Research Project', 'Computer Vision', 'Large Language Models'],
