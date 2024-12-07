@@ -13,7 +13,7 @@ const about = {
     '<a href="https://darrellgroup.github.io/" class="link" target="_blank">Darrell Group</a> (advised by Professor Trevor Darrell)',
     '<a href="https://www-video.eecs.berkeley.edu/" class="link" target="_blank">VIP lab</a> (advised by Professor Avideh Zakhor)',
     '<a href="https://sites.google.com/berkeley.edu/mpc-lab" class="link" target="_blank">MPC lab</a> (advised by Professor Francesco Borrelli)',
-    'Feel free to reach out at kehanli[at]stanford[dot]edu :)'
+    'Feel free to reach out at firstlast[at]stanford[dot]edu :)'
   ],
   // resume: 'https://drive.google.com/file/d/1u40xnZL0QiEQ46WA98pFLgLdQF0v6Zy-/view?usp=sharing',
   social: {
@@ -32,11 +32,11 @@ const projects = [
   // ones, e.g., instance[1], including positional, interactional, and hierarchical relationships.
 
   {
-    name: 'HIPIE+',
+    name: 'SegLLM',
     description:
-      'Extension of the HIPIE project, a multi-round interactive sgmentation model that can reason about previously segmented objects and conversations',
+      'A multi-round interactive sgmentation model that can reason about previously segmented objects and conversations',
     stack: ['Research Project', 'Computer Vision', 'Large Language Models'],
-    livePreview: 'https://people.eecs.berkeley.edu/~xdwang/projects/HIPIE/',
+    livePreview: 'https://berkeley-hipie.github.io/segllm.github.io/',
   },
   {
     name: 'Adaptive Navigation for Autonomous Drones',
