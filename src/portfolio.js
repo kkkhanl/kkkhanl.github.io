@@ -9,11 +9,7 @@ const about = {
   name: 'Kehan Li',
   // role: 'Computer Science Student',
   description: [
-    'Hi! My name is Kehan and I am a first-year <a href="https://www.cs.stanford.edu/masters-program-overview" class="link" target="_blank">MSCS</a> student at Stanford University. My research interest lies in the areas of Reinforcement Learning, Robotics and Computer Vision. Previously, I obtained my B.A. in Computer Science from UC Berkeley where I have been involved in research in the following labs:',
-    '<a href="https://darrellgroup.github.io/" class="link" target="_blank">Darrell Group</a> (advised by Professor Trevor Darrell)',
-    '<a href="https://www-video.eecs.berkeley.edu/" class="link" target="_blank">VIP lab</a> (advised by Professor Avideh Zakhor)',
-    '<a href="https://sites.google.com/berkeley.edu/mpc-lab" class="link" target="_blank">MPC lab</a> (advised by Professor Francesco Borrelli)',
-    'Feel free to reach out at firstlast[at]stanford[dot]edu :)'
+    'Hi! My name is Kehan and I am a second-year <a href="https://www.cs.stanford.edu/masters-program-overview" class="link" target="_blank">MSCS</a> student at Stanford University, graduating in June 2026. Over the past summer, I interned at <a href="https://stripe.com/" class="link" target="_blank">Stripe</a> as a Software Engineering intern, and previously at <a href="https://www.cepton.com/" class="link" target="_blank">Cepton</a> as a SWE intern.<br><br>My research interests lie in Reinforcement Learning, Robotics, and Computer Vision, and I am currently conducting research in the <a href="https://svl.stanford.edu/" class="link" target="_blank">Stanford Vision and Learning (SVL) Lab</a>. Before Stanford, I received my B.A. in Computer Science from UC Berkeley, where I conducted research in the <a href="https://darrellgroup.github.io/" class="link" target="_blank">Darrell Group</a>, the <a href="https://www-video.eecs.berkeley.edu/" class="link" target="_blank">VIP Lab</a>, and the <a href="https://sites.google.com/berkeley.edu/mpc-lab" class="link" target="_blank">MPC Lab</a>.<br><br>I am actively seeking 2026 full-time opportunities in Machine Learning Engineering (MLE) and Software Engineering (SWE). Feel free to reach out at firstlast[at]stanford[dot]edu :)'
   ],
   // resume: 'https://drive.google.com/file/d/1u40xnZL0QiEQ46WA98pFLgLdQF0v6Zy-/view?usp=sharing',
   social: {
@@ -30,7 +26,13 @@ const projects = [
   // previously segmented objects and conversations, responding to multiple visual and text queries in a chat - like
   // manner.SegLLM can understand complex user intentions and segment entities in relation to previously identified
   // ones, e.g., instance[1], including positional, interactional, and hierarchical relationships.
-
+  {
+    name: "Using Small LLMs to Improve Large Model Code Synthesis",
+    description:
+      "Investigates whether a light-weight LLM can be fine-tuned to generate effective prompts that enhance code synthesis in a larger LLM",
+    stack: ['LLM', 'Fine-tuning', 'prompt tuning'],
+    livePreview: "https://github.com/arielchen07/Guiding-the-Giants-Using-Small-LLMs-to-Improve-Large-Model-Code-Synthesis",
+  },
   {
     name: 'SegLLM',
     description:
@@ -83,18 +85,19 @@ const projects = [
 ]
 
 const skills = [
-  // skills can be added or removed
-  // if there are no skills, Skills section won't show up
   'Python',
-  'Java',
-  'C',
   'C++',
-  'ROS',
-  'RISC-V',
+  'Java',
+  'React',
+  'SQL',
   'PyTorch',
   'TensorFlow',
-  'Stable Baselines3',
-]
+  'CUDA',
+  'ROS',
+  'Open3D',
+  'Prometheus',
+  'AWS',
+];
 
 const contact = {
   // email is optional - if left empty Contact section won't show up

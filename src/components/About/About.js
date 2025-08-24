@@ -21,15 +21,12 @@ const About = () => {
 
         {description && (
           <div>
-            <p className='about__desc' dangerouslySetInnerHTML={{ __html: description[0] }} />
-            <ul className='about__labs-list'>
-              {description.slice(1, -1).map((lab) => (
-                <li key={lab} className='about__desc' dangerouslySetInnerHTML={{ __html: lab }} />
-              ))}
-            </ul>
-            <p className='about__desc' dangerouslySetInnerHTML={{ __html: description[description.length - 1] }} />
+            {description.map((para) => (
+              <p key={para} className='about__desc' dangerouslySetInnerHTML={{ __html: para }} />
+            ))}
           </div>
         )}
+
 
 
         <div className='about__contact center'>
